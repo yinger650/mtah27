@@ -1,0 +1,2 @@
+# Runtime used to generate the submitted file: Python 3.13.5
+numpy==2.5.4

@@ -1,0 +1,39 @@
+# Match data is not redistributable. Keep the folder, ignore its contents.
+data/*
+!data/README.md
+
+# Generated labels, caches, and reconstructive derivatives
+*.csv
+*.npz
+*.npy
+*.parquet
+*.pkl
+*.mp4
+*.xml
+
+# Secrets and local environment
+.env
+.env.*
+*.pem
+*.key
+id_rsa
+id_ed25519
+id_ecdsa
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# Editors and OS
+.DS_Store
+.idea/
+.vscode/
+
+# Local documents that are not part of the reproduction
+*.pdf
